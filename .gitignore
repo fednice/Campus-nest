@@ -1,0 +1,6 @@
+# Never commit backend secrets or local environment files.
+.env
+.env.*
+!.env.example
+supabase/.temp/
+supabase/.branches/
